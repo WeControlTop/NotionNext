@@ -6,7 +6,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '欢迎来到我的个人网站', url: 'https://www.wecontrol.top' },
-    { title: '访问文档中心获取更多帮助', url: 'https://www.wecontrol.top' }
+    { title: '请朋友留言,让我欢迎你!', url: 'https://www.wecontrol.top' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -47,43 +47,83 @@ const CONFIG = {
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
+      /*
       title_1: 'AfterEffect',
       img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
       color_1: '#989bf8',
       title_2: 'Sketch',
       img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
       color_2: '#ffffff'
+      */
+      title_1: 'WeControlTop',
+      img_1: '/images/heo/100x100_WeControlTop.webp',
+      color_1: '#989bf8',
+      title_2: 'TiaPortalV17',
+      img_2: '/images/heo/100x100_TIA_V17.webp',
+      color_2: '#ffffff'
     },
     {
+      /*
       title_1: 'Docker',
       img_1: '/images/heo/20231108a540b2862d26f8850172e4ea58ed075102.webp',
       color_1: '#57b6e6',
       title_2: 'Photoshop',
       img_2: '/images/heo/2023e4058a91608ea41751c4f102b131f267075902.webp',
       color_2: '#4082c3'
+      */
+      title_1: 'TiaPortalV18',
+      img_1: '/images/heo/100x100_TIA_V18.webp',
+      color_1: '#57b6e6',
+      title_2: 'Photoshop',
+      img_2: '/images/heo/2023e4058a91608ea41751c4f102b131f267075902.webp',
+      color_2: '#4082c3'
     },
     {
+      /*
       title_1: 'FinalCutPro',
       img_1: '/images/heo/20233e777652412247dd57fd9b48cf997c01070702.webp',
       color_1: '#ffffff',
       title_2: 'Python',
       img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
       color_2: '#ffffff'
+      */
+      title_1: 'TiaPortalV16',
+      img_1: '/images/heo/100x100_TIA_V16.webp',
+      color_1: '#ffffff',
+      title_2: 'Python',
+      img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
+      color_2: '#ffffff'
     },
     {
+      /*
       title_1: 'Swift',
       img_1: '/images/heo/202328bbee0b314297917b327df4a704db5c072402.webp',
       color_1: '#eb6840',
       title_2: 'Principle',
       img_2: '/images/heo/2023f76570d2770c8e84801f7e107cd911b5073202.webp',
       color_2: '#8f55ba'
+      */
+      title_1: 'CMake',
+      img_1: '/images/heo/100x100_Cmake.webp',
+      color_1: '#eb6840',
+      title_2: 'Qt',
+      img_2: '/images/heo/100x100_Qt.webp',
+      color_2: '#8f55ba'
     },
     {
+      /*
       title_1: 'illustrator',
       img_1: '/images/heo/20237359d71b45ab77829cee5972e36f8c30073902.webp',
       color_1: '#f29e39',
       title_2: 'CSS3',
       img_2: '/images/heo/20237c548846044a20dad68a13c0f0e1502f074602.webp',
+      color_2: '#2c51db'
+      */
+      title_1: 'Wireshark',
+      img_1: '/images/heo/100x100_Wireshark.webp',
+      color_1: '#f29e39',
+      title_2: 'WeControlTop',
+      img_2: '/images/heo/100x100_WeControlTop.webp',
       color_2: '#2c51db'
     },
     {
@@ -95,11 +135,19 @@ const CONFIG = {
       color_2: '#e9572b'
     },
     {
+      /*
       title_1: 'Git',
       img_1: '/images/heo/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.webp',
       color_1: '#df5b40',
       title_2: 'Rhino',
       img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
+      color_2: '#1f1f1f'
+      */
+      title_1: 'Git',
+      img_1: '/images/heo/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.webp',
+      color_1: '#df5b40',
+      title_2: 'VirtualBox',
+      img_2: '/images/heo/100x100_VirtualBox.webpp',
       color_2: '#1f1f1f'
     }
   ],
